@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+#container{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.338);
+}
+#Sec{
+    font-size: 600px;
+    color: rgba(255, 0, 0, 0.646);
+}
+#Time{
+    font-size: 130px;
+    
+}
+#Day,#Date{
+    font-size: 80px;
+}
+img{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat; 
+}
